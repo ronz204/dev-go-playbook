@@ -6,6 +6,7 @@ import (
 
 func main() {
 	demos.LoopingDemo()
+	demos.CallbacksDemo()
 	demos.VariablesDemo()
 	demos.FunctionsDemo()
 	demos.ConditionsDemo()
