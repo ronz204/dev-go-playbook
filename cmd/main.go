@@ -7,5 +7,6 @@ import (
 func main() {
 	demos.LoopingDemo()
 	demos.VariablesDemo()
+	demos.FunctionsDemo()
 	demos.ConditionsDemo()
 }
