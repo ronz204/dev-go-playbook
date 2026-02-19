@@ -2,6 +2,7 @@ package main
 
 import (
 	"playbook/source/demos"
+	"playbook/source/patterns"
 )
 
 func main() {
@@ -11,4 +12,6 @@ func main() {
 	demos.VariablesDemo()
 	demos.FunctionsDemo()
 	demos.ConditionsDemo()
+
+	patterns.EnumsDemo()
 }
