@@ -30,5 +30,9 @@ func CompositeDemo() {
 		"Phone":  499.49,
 		"Tablet": 299.29,
 	}
-	fmt.Println("Products:", products)
+
+	// Comma ok idiom to check if a key exists in the map
+	if price, exists := products["Laptop"]; exists {
+		fmt.Println("Laptop Price:", price)
+	}
 }
