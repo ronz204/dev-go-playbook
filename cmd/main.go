@@ -13,6 +13,7 @@ func main() {
 	demos.FunctionsDemo()
 	demos.CompositeDemo()
 	demos.ConditionsDemo()
+	demos.StructuringDemo()
 
 	patterns.EnumsDemo()
 }
