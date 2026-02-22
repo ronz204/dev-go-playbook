@@ -7,6 +7,7 @@ import (
 
 func main() {
 	demos.LoopingDemo()
+	demos.PointersDemo()
 	demos.ConstantsDemo()
 	demos.CallbacksDemo()
 	demos.VariablesDemo()
