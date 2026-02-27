@@ -18,4 +18,6 @@ func main() {
 	demos.StructuringDemo()
 
 	patterns.EnumsDemo()
+
+	demos.GenericsDemo()
 }
