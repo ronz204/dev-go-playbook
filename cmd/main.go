@@ -20,4 +20,5 @@ func main() {
 	patterns.EnumsDemo()
 
 	demos.GenericsDemo()
+	demos.ExceptionsDemo()
 }
