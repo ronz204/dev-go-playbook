@@ -42,7 +42,7 @@ func WorkersDemo() {
 		"https://www.invalid-url.com",
 	}
 
-	const WORKERS = 3
+	const WORKERS int = 3
 	var wg sync.WaitGroup
 
 	jobs := make(chan string, len(urls))
