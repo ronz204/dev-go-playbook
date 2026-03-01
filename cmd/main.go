@@ -6,5 +6,5 @@ import (
 
 func main() {
 	patterns.EnumsDemo()
-	patterns.WorkersDemo()
+	patterns.SelecterDemo()
 }
